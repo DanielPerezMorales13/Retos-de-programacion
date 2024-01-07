@@ -50,7 +50,7 @@
 
 **Despues de colocar las credenciales correctamente se nos abrira este pagina**
 
-![*img Router Configuracion #1*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion1.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion1.png?raw=true")
+![*img Router Configuracion #1*](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion1.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion1.png?raw=true")
 
 > *Una vez dentro podemos configurar muchas cosas*
 
@@ -83,7 +83,7 @@
 
       - **Método de Configuración con PIN:** Al ingresar un código PIN en el dispositivo que se está conectando, se establece la conexión de forma segura.
 
-   6. ![img Router Configuracion #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true")
+   6. ![img Router Configuracion #2](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true")
 
 2. **Ocultar Nombre de Red (SSID) y Aislar un Access Point (AP)**
     1. > *SSID son las siglas de "Service Set Identifier" (Identificador de Conjunto de Servicios, en español). Un SSID es un nombre único que identifica a una red inalámbrica (Wi-Fi). Cada red Wi-Fi tiene un SSID único, y los dispositivos inalámbricos utilizan este nombre para conectarse a la red deseada.*
@@ -103,7 +103,7 @@
           4. **Control de tráfico y rendimiento**
                1. > *El aislamiento del AP puede ayudar a optimizar el rendimiento de la red al limitar la cantidad de tráfico entre dispositivos. Esto es útil en entornos donde se busca un mejor control del tráfico para mejorar la eficiencia y la calidad de la conexión.*
 
-    3. ![img Router Configuracion #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion3.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion3.png?raw=true")
+    3. ![img Router Configuracion #3](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion3.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion3.png?raw=true")
 
 3. **Crear una red de inviatdos publica**
     1. > *Crear una red de invitados pública se refiere a configurar una red inalámbrica específicamente diseñada para ofrecer acceso limitado y temporal a usuarios no autorizados o visitantes.*
@@ -117,7 +117,7 @@
        4. **Aislamiento del AP**
           1. > *Puede activarse la función de aislamiento del Access Point (AP) para impedir la comunicación directa entre los dispositivos conectados a la red de invitados. Esto mejora la seguridad y la privacidad entre los usuarios temporales.*
 
-    2. ![img Router Configuracion #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion4.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion4.png?raw=true")
+    2. ![img Router Configuracion #4](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion4.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion4.png?raw=true")
 
 4. **Crear una red de invitados privada**
    1. > Es el mismo procedimiento que crear una red de invitados publica exceptuando que ocultamo el SSID osea el nombre de la red*
@@ -125,17 +125,17 @@
 5. **Control de acceso por filtros MAC**
    1. > *El control de acceso por filtros MAC (Media Access Control) es una función de seguridad utilizada en redes para limitar el acceso a la red inalámbrica a dispositivos específicos. Cada dispositivo con capacidad de red, como computadoras, teléfonos inteligentes o impresoras, tiene una dirección MAC única asignada a su tarjeta de red. El control de acceso por filtros MAC aprovecha estas direcciones MAC para permitir o denegar la conexión de dispositivos a una red.*
 
-   2. ![img Router Configuracion #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true")
+   2. ![img Router Configuracion #5](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true")
 
 6. **Control parental**
    1. > *Esta opcion te permite personalizar el tiempo en el que un dispositivo de nuestra red local puede estar conectado,que dia puede acceder al red, tambien hay una opcion la cual podemos bloquear para que no visite ciertas paginas entre otras cosas.*
 
-   2. ![img Router Configuracion #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion6.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion6.png?raw=true")
+   2. ![img Router Configuracion #6](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion6.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion6.png?raw=true")
 
 7. **Cambiar la contraseña**
    1. > *Podemos cambiar la contraseña del router desde la interfaz*
 
-   2. ![img Router Configuracion #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion7.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion7.png?raw=true")
+   2. ![img Router Configuracion #7](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-Configuracion-Router/Router-Configuracion7.png?raw=true)
 
 8. *Cifrados*
    1. > *Existen muchos protocolo de seguridad*

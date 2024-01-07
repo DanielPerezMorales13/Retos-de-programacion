@@ -46,16 +46,18 @@
 ---
 > **Puertos de HTTP y HTTPS:** *HTTP y HTTPS utilizan diferentes puertos por defecto. HTTP utiliza el puerto 80, mientras que HTTPS utiliza el puerto 443. Estos son los puertos predeterminados, pero se pueden configurar para usar otros puertos si es necesario.*
 
-![*Img*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS1.png?raw=true)
+![*Img*](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS1.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS1.png?raw=true")
 
-![*Img dos*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS2.png?raw=true)
+![*Img dos*](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS2.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS2.png?raw=true")
 
-![*Img tres*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS3.png?raw=true)
+![*Img tres*](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS3.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS3.png?raw=true")
 
 **`SSL y TLS  a veces denominados «certificados digitales», se utilizan para establecer una conexión cifrada entre un navegador o el ordenador de un usuario y un servidor o un sitio web. Son protocolos de seguridad utilizados en la comunicación de red.`**
 
 > **SSL:** *Significa Secure Sockets Layer (Capa de sockets seguros).SSL es una tecnología estandarizada que permite cifrar el tráfico de datos entre un navegador web y un sitio web (o entre dos servidores web), protegiendo así la conexión. Esto impide que un hacker pueda ver o interceptar la información que se transmite de un punto a otro, la cual puede contener datos personales o financieros.*
+
 ___
+
 > **TLS:** *Significa Transport Layer Security (Seguridad de la capa de transporte). TLS es una versión actualizada y más segura de SSL. Es un protocolo que proporciona privacidad y seguridad de datos entre dos aplicaciones que se comunican a través de una red. TLS es el sucesor de Secure Sockets Layer (SSL). Se utiliza comúnmente para proteger las comunicaciones web (HTTP/HTTPS), el correo electrónico (SMTP), la mensajería instantánea (IM) y algunas VPNs.*
 
 # ***Herramientas SSLSCAN y TESTSSL.SH***
@@ -118,50 +120,50 @@ ___
 
 <!-- [^1]:Configuraciones del navegador Firefox -->
 
-![configuracion Firefox img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox1.png?raw=true)
+![configuracion Firefox img #1](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox1.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox1.png?raw=true")
 
-![configuracion Firefox img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox2.png?raw=true)
+![configuracion Firefox img #2](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox2.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox2.png?raw=true")
 
-![configuracion Firefox img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox3.png?raw=true)
+![configuracion Firefox img #3](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox3.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox3.png?raw=true")
 
-![configuracion Firefox img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox4.png?raw=true)
+![configuracion Firefox img #4](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox4.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox4.png?raw=true")
 
-![configuracion Firefox img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox5.png?raw=true)
+![configuracion Firefox img #5](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox5.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox5.png?raw=true")
 
-![configuracion Firefox img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox6.png?raw=true)
+![configuracion Firefox img #6](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox6.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox6.png?raw=true")
 
-![configuracion Firefox img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox7.png?raw=true)
+![configuracion Firefox img #7](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox7.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox7.png?raw=true")
 
-![configuracion Firefox img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox8.png?raw=true)
+![configuracion Firefox img #8](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox8.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-firefox/configuracion%20firefox8.png?raw=true")
 
 ---
 
 # ***Configuraciones segura para navegador Chrome***
 <!-- [^2]:Configuraciones del navegador Chrome -->
 
-![configuracion Chrome img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome1.png?raw=true)
+![configuracion Chrome img #1](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome1.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome1.png?raw=true")
 
-![configuracion Chrome img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome2.png?raw=true)
+![configuracion Chrome img #2](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome2.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome2.png?raw=true")
 
-![configuracion Chrome img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome3.png?raw=true)
+![configuracion Chrome img #3](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome3.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome3.png?raw=true")
 
-![configuracion Chrome img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome4.png?raw=true)
+![configuracion Chrome img #4](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome4.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome4.png?raw=true")
 
-![configuracion Chrome img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome5.png?raw=true)
+![configuracion Chrome img #5](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome5.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome5.png?raw=true")
 
-![configuracion Chrome img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome6.png?raw=true)
+![configuracion Chrome img #6](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome6.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome6.png?raw=true")
 
-![configuracion Chrome img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome7.png?raw=true)
+![configuracion Chrome img #7](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome7.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome7.png?raw=true")
 
-![configuracion Chrome img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome8.png?raw=true)
+![configuracion Chrome img #8](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome8.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome8.png?raw=true")
 
-![configuracion Chrome img #9](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome9.png?raw=true)
+![configuracion Chrome img #9](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome9.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome9.png?raw=true")
 
-![configuracion Chrome img #10](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome10.png?raw=true)
+![configuracion Chrome img #10](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome10.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome10.png?raw=true")
 
-![configuracion Chrome img #11](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome11.png?raw=true)
+![configuracion Chrome img #11](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome11.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome11.png?raw=true")
 
-![configuracion Chrome img #12](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome12.png?raw=true)
+![configuracion Chrome img #12](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome12.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-chrome/Configuracion%20Chrome12.png?raw=true")
 
 ---
 <!-- [^3]:Motor de busqueda DuckDuckGo -->
@@ -198,25 +200,25 @@ ___
 
 >*Extensiones para el navegador*
 
-![configuracion Brave img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave1.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave1.png?raw=true")
+![configuracion Brave img #1](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave1.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave1.png?raw=true")
 
-![configuracion Brave img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave2.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave2.png?raw=true")
+![configuracion Brave img #2](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave2.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave2.png?raw=true")
 
-![configuracion Brave img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave3.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave3.png?raw=true")
+![configuracion Brave img #3](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave3.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave3.png?raw=true")
 
-![configuracion Brave img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave4.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave4.png?raw=true")
+![configuracion Brave img #4](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave4.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave4.png?raw=true")
 
-![configuracion Brave img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave5.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave5.png?raw=true")
+![configuracion Brave img #5](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave5.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave5.png?raw=true")
 
-![configuracion Brave img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave6.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave6.png?raw=true")
+![configuracion Brave img #6](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave6.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave6.png?raw=true")
 
-![configuracion Brave img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave7.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave7.png?raw=true")
+![configuracion Brave img #7](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave7.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave7.png?raw=true")
 
-![configuracion Brave img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave8.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave8.png?raw=true")
+![configuracion Brave img #8](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave8.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave8.png?raw=true")
 
-![configuracion Brave img #9](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave9.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave9.png?raw=true")
+![configuracion Brave img #9](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave9.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave9.png?raw=true")
 
-![configuracion Brave img #10](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave10.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave10.png?raw=true")
+![configuracion Brave img #10](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave10.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Proteccion_Red/img/PNG/img-brave/Configuracion%20Brave10.png?raw=true")
 
 1. [Cookie editor Mozilla](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/ "https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/")
 2. [Cookie editor Brave](https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg "https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg")
