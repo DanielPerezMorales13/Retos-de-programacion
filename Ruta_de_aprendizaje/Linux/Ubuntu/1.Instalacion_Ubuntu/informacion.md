@@ -93,111 +93,111 @@
       virtualbox
       ```
 
-   1. ![_virtualbox#1_]("")
+      1. ![_virtualbox#1_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox1.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox1.png?raw=true")
 
-   1. ![_virtualbox#2_]("")
+      2. ![_virtualbox#2_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox2.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox2.png?raw=true")
 
-   1. ![_virtualbox#3_]("")
+      3. ![_virtualbox#3_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox3.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox3.png?raw=true")
 
-   1. ![_virtualbox#4_]("")
+      4. ![_virtualbox#4_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox4.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox4.png?raw=true")
 
-   1. ![_virtualbox#5_]("")
+      5. ![_virtualbox#5_]("")
 
-   1. ![_virtualbox#6_]("")
+      6. ![_virtualbox#6_]("")
 
-   1. ![_virtualbox#7_]("")
+      7. ![_virtualbox#7_]("")
 
-   1. ![_virtualbox#8_]("")
+      8. ![_virtualbox#8_]("")
 
-   1. ![_virtualbox#9_]("")
+      9. ![_virtualbox#9_]("")
 
-   1. ![_virtualbox#10_]("")
+      10. ![_virtualbox#10_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox10.png?raw=true   "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox10.png?raw=true")
 
-   1. ![_virtualbox#11_]("")
+      11. ![_virtualbox#11_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox11.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox11.png?raw=true")
 
-   1. ![_virtualbox#12_]("")
+      12. ![_virtualbox#12_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox12.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox12.png?raw=true")
 
-   1. ![_virtualbox#13_]("")
+      13. ![_virtualbox#13_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox13.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox13.png?raw=true")
 
-   1. ![_virtualbox#14_]("")
+      14. ![_virtualbox#14_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox14.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox14.png?raw=true")
 
-   1. ![_virtualbox#15_]("")
+      15. ![_virtualbox#15_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox15.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox15.png?raw=true")
 
-   1. ![_virtualbox#16_]("")
+      16. ![_virtualbox#16_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox16.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox16.png?raw=true")
 
-   1. ![_virtualbox#17_]("")
+      17. ![_virtualbox#17_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox17.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox17.png?raw=true")
 
-   1. ![_virtualbox#18_]("")
+      18. ![_virtualbox#18_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox18.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox18.png?raw=true")
 
-   1. ![_virtualbox#19_]("")
+      19. ![_virtualbox#19_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox19.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox19.png?raw=true")
 
-   1. ![_virtualbox#20_]("")
+      20. ![_virtualbox#20_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox20.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox20.png?raw=true")
 
-   1. ![_virtualbox#21_]("")
+      21. ![_virtualbox#21_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox21.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox21.png?raw=true")
 
-   1. ![_virtualbox#22_]("")
+      22. ![_virtualbox#22_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox22.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox22.png?raw=true")
 
-   1. ![_virtualbox#23_]("")
+      23. ![_virtualbox#23_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox23.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox23.png?raw=true")
 
-   1. ![_virtualbox#24_]("")
+      24. ![_virtualbox#24_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox24.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox24.png?raw=true")
 
-   1. ![_virtualbox#25_]("")
+      25. ![_virtualbox#25_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox25.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox25.png?raw=true")
 
-   1. ![_virtualbox#26_]("")
+      26. ![_virtualbox#26_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox26.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox26.png?raw=true")
 
-   1. ![_virtualbox#27_]("")
+      27. ![_virtualbox#27_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox27.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox27.png?raw=true")
 
-   1. ![_virtualbox#28_]("")
+      28. ![_virtualbox#28_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox28.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox28.png?raw=true")
 
-   1. ![_virtualbox#29_]("")
+      29. ![_virtualbox#29_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox29.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox29.png?raw=true")
 
-   1. ![_virtualbox#30_]("")
+      30. ![_virtualbox#30_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox30.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox30.png?raw=true")
 
-   1. ![_virtualbox#31_]("")
+      31. ![_virtualbox#31_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox31.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox31.png?raw=true")
 
-   1. ![_virtualbox#32_]("")
+      32. ![_virtualbox#32_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox32.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox32.png?raw=true")
 
-   1. ![_virtualbox#33_]("")
+      33. ![_virtualbox#33_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox33.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox33.png?raw=true")
 
-   1. ![_virtualbox#34_]("")
+      34. ![_virtualbox#34_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox34.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox34.png?raw=true")
 
-   1. ![_virtualbox#35_]("")
+      35. ![_virtualbox#35_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox35.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox35.png?raw=true")
 
-   1. ![_virtualbox#36_]("")
+      36. ![_virtualbox#36_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox36.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox36.png?raw=true")
 
-   1. ![_virtualbox#37_]("")
+      37. ![_virtualbox#37_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox37.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox37.png?raw=true")
 
-   1. ![_virtualbox#38_]("")
+      38. ![_virtualbox#38_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox38.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox38.png?raw=true")
 
-   1. ![_virtualbox#39_]("")
+      39. ![_virtualbox#39_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox39.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox39.png?raw=true")
 
-   1. ![_virtualbox#40_]("")
+      40. ![_virtualbox#40_]("")
 
-   1. ![_virtualbox#41_]("")
+      41. ![_virtualbox#41_]("")
 
-   1. ![_virtualbox#42_]("")
+      42. ![_virtualbox#42_]("")
 
-   1. ![_virtualbox#43_]("")
+      43. ![_virtualbox#43_]("")
 
-   1. ![_virtualbox#44_]("")
+      44. ![_virtualbox#44_]("")
 
-   1. ![_virtualbox#45_]("")
+      45. ![_virtualbox#45_]("")
 
-   1. ![_virtualbox#46_]("")
+      46. ![_virtualbox#46_]("")
 
-   1. ![_virtualbox#47_]("")
+      47. ![_virtualbox#47_]("")
 
-   1. ![_virtualbox#48_]("")
+      48. ![_virtualbox#48_]("")
 
-   1. ![_virtualbox#49_]("")
+      49. ![_virtualbox#49_]("")
 
-   1. ![_virtualbox#50_]("")
+      50. ![_virtualbox#50_]("")
 
-   1. ![_virtualbox#51_]("")
+      51. ![_virtualbox#51_]("")
 
-   1. ![_virtualbox#52_]("")
+      52. ![_virtualbox#52_]("")
 
-   1. ![_virtualbox#53_]("")
+      53. ![_virtualbox#53_]("")
 
 > _Las particiones son divisiones lógicas en el disco duro de tu computadora que permiten organizar y gestionar el espacio de almacenamiento. Estas divisiones son esenciales por varias razones:_
 
@@ -414,7 +414,7 @@ _En este ejemplo, `/dev/sda1`, `/dev/sda2`, y `/dev/sda3` son particiones primar
 
 > **Modo de uso**
 
-1. _Necesitaremos una **USB** de almenos 8 GB para arrancar el ordenador desde la **USB_**
+1. _Necesitaremos una **USB** de almenos 8 GB para arrancar el ordenador desde la **USB**_
 
    1. _Se recomienda que la **USB** este vacia_
 
