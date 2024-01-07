@@ -101,7 +101,7 @@
 
       4. ![_virtualbox#4_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox4.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox4.png?raw=true")
 
-      5. ![_virtualbox#5_]("")
+      5. ![_virtualbox#5_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox5.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox5.png?raw=true")
 
       6. ![_virtualbox#6_]("")
 
@@ -171,33 +171,31 @@
 
       39. ![_virtualbox#39_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox39.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox39.png?raw=true")
 
-      40. ![_virtualbox#40_]("")
+      40. ![_virtualbox#40_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox40.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox40.png?raw=true")
 
-      41. ![_virtualbox#41_]("")
+      41. ![_virtualbox#41_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox41.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox41.png?raw=true")
 
-      42. ![_virtualbox#42_]("")
+      42. ![_virtualbox#42_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox42.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox42.png?raw=true")
 
-      43. ![_virtualbox#43_]("")
+      43. ![_virtualbox#43_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox43.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox43.png?raw=true")
 
-      44. ![_virtualbox#44_]("")
+      44. ![_virtualbox#44_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox44.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox44.png?raw=true")
 
-      45. ![_virtualbox#45_]("")
+      45. ![_virtualbox#45_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox45.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox45.png?raw=true")
 
-      46. ![_virtualbox#46_]("")
+      46. ![_virtualbox#46_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox46.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox46.png?raw=true")
 
-      47. ![_virtualbox#47_]("")
+      47. ![_virtualbox#47_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox47.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox47.png?raw=true")
 
-      48. ![_virtualbox#48_]("")
+      48. ![_virtualbox#48_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox48.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox48.png?raw=true")
 
-      49. ![_virtualbox#49_]("")
+      49. ![_virtualbox#49_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox49.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox49.png?raw=true")
 
-      50. ![_virtualbox#50_]("")
+      50. ![_virtualbox#50_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox50.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox50.png?raw=true")
 
-      51. ![_virtualbox#51_]("")
+      51. ![_virtualbox#51_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox51.png?raw=true  "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox51.png?raw=true")
 
-      52. ![_virtualbox#52_]("")
-
-      53. ![_virtualbox#53_]("")
+      52. ![_virtualbox#52_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox52.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox52.png?raw=true")
 
 > _Las particiones son divisiones lógicas en el disco duro de tu computadora que permiten organizar y gestionar el espacio de almacenamiento. Estas divisiones son esenciales por varias razones:_
 
@@ -323,7 +321,7 @@ _En este ejemplo, `/dev/sda1`, `/dev/sda2`, y `/dev/sda3` son particiones primar
 2. **Insertar el CD de Guest Additions:**
 
    - _Desde el menú de VirtualBox, selecciona "Dispositivos" -> "Insertar imagen de CD de Guest Additions..."_
-   - ![_virtualbox#54_]("")
+   - ![_virtualbox#53_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox53.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox53.png?raw=true")
 
 3. **Acceder al Terminal en el Sistema Invitado:**
 
@@ -335,13 +333,13 @@ _En este ejemplo, `/dev/sda1`, `/dev/sda2`, y `/dev/sda3` son particiones primar
          sudo apt-get install build-essential linux-headers-$(uname -r)
        ```
 
-     - ![_virtualbox#59_]("")
+     - ![_virtualbox#58_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox58.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox58.png?raw=true")
 
 4. **Ejecutar el script de instalacion:**
 
    1. _Ir al directorio y ejecutarlo_
 
-      1. ![_virtualbox#55_]("")
+      1. ![_virtualbox#54_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox54.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox54.png?raw=true")
 
       2. ```bash
          cd /media/daniel/VBox_Gas_6.1.38
@@ -353,7 +351,7 @@ _En este ejemplo, `/dev/sda1`, `/dev/sda2`, y `/dev/sda3` son particiones primar
          ls
          ```
 
-         1. ![_virtualbox#56_]("")
+         1. ![_virtualbox#55_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox55.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox55.png?raw=true")
 
          2. _Actualizamos el sistema_
 
@@ -367,8 +365,8 @@ _En este ejemplo, `/dev/sda1`, `/dev/sda2`, y `/dev/sda3` son particiones primar
                sudo apt-get install upgrade
                ```
 
-      5. ![_virtualbox#57_]("")
-      6. ![_virtualbox#58_]("")
+      5. ![_virtualbox#56_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox56.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox56.png?raw=true")
+      6. ![_virtualbox#57_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox57.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox57.png?raw=true")
 
 5. **Reiniciar la Máquina Virtual:**
 
