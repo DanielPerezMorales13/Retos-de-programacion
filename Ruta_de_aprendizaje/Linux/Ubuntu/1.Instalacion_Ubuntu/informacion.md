@@ -103,13 +103,13 @@
 
       5. ![_virtualbox#5_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox5.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox5.png?raw=true")
 
-      6. ![_virtualbox#6_]("")
+      6. ![_virtualbox#6_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox6.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox6.png?raw=true")
 
-      7. ![_virtualbox#7_]("")
+      7. ![_virtualbox#7_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox7.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox7.png?raw=true")
 
-      8. ![_virtualbox#8_]("")
+      8. ![_virtualbox#8_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox8.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox8.png?raw=true")
 
-      9. ![_virtualbox#9_]("")
+      9. ![_virtualbox#9_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox9.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox9.png?raw=true")
 
       10. ![_virtualbox#10_](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox10.png?raw=true   "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/Img_virtualbox/virtualbox10.png?raw=true")
 
