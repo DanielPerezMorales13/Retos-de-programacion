@@ -433,7 +433,7 @@
           ```
 
      6. ```bash
-          rm --recursive ./carpeta
+          rm --recursive ./carpeta 
           ```
 
      7. ```bash

@@ -22,7 +22,7 @@ import os
 
 
 def borrar() -> None:
-    os.system("cls" if os.name == "nt" else "clear")
+    os.system(command="cls" if os.name == "nt" else "clear")
 
 
 def main() -> None:
@@ -70,7 +70,7 @@ def main() -> None:
     print(not True)  # NOT lógico
     str(input(""))
     borrar()
-    
+
     print("operadores de asignacion".title())
     # Operadores de asignación
     a = 10  # Asignación
