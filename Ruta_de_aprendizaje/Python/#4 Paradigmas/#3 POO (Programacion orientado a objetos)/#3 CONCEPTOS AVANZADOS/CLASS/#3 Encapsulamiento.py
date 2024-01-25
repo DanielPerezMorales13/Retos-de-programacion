@@ -25,6 +25,8 @@ el resto del programa.
 >>> - Ocultar la complejidad al usuario de una clase, mostrando solo los métodos que son necesarios para interactuar con dicha clase.
 """
 
+# Para poder ejecutar metodo privado desde fuera de la clase se debe crear un metodo publico o protegido que llame al metodo privado
+
 
 class MiClase:
     def __init__(self: object) -> None:
@@ -41,8 +43,12 @@ class MiClase:
     def __Metodo_Privado(self: object) -> str:
         return "Soy un metodo inalcanzable desde fuera de la clase"
 
+    def Get_Funcion_Metodo_Privado(self: object) -> str:
+        return self.__Metodo_Privado()
+
 
 objeto: object = MiClase()
+print(objeto.Get_Funcion_Metodo_Privado())
 print(objeto.atributo_publico)  # se puede acceder a un atributo publico
 print(objeto._atributo_protegido)  # se puede acceder a un atributo protegido
 # print(objeto.__atributo_privado) # no se puede acceder a un atributo privado
