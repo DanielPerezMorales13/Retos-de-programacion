@@ -48,7 +48,7 @@ class MiClase:
 
 
 objeto: object = MiClase()
-print(objeto.Get_Funcion_Metodo_Privado())
+print(objeto.Get_Funcion_Metodo_Privado()) # se puede acceder a un metodo privado mediante un metodo publico
 print(objeto.atributo_publico)  # se puede acceder a un atributo publico
 print(objeto._atributo_protegido)  # se puede acceder a un atributo protegido
 # print(objeto.__atributo_privado) # no se puede acceder a un atributo privado

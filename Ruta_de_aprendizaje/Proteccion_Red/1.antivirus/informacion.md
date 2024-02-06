@@ -17,7 +17,7 @@
 7. [***haveibeenpwned***](https://haveibeenpwned.com/ "https://haveibeenpwned.com/")
 
 > [!IMPORTANT]
-> *La pagina de Hybrid Analytics cuando hace un escaneo de los archivos que subamos, luego de hacer el analisis el docuento lo hace publico asi que no subamos archivos confidenciales por que si no se puede filtrar informacion personal*
+> *La pagina de Hybrid Analytics cuando hace un escaneo de los archivos que subamos, luego de hacer el analisis el documento lo hace publico asi que no subamos archivos confidenciales por que si no se puede filtrar informacion personal*
 
 ---
 # ***Firewall***

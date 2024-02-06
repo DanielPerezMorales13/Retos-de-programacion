@@ -1,0 +1,70 @@
+# Temas: Condicionales, if, elif, else, ispección de valor
+
+"""
+if es una palabra reservada de python que se utiliza para hacer condicionales
+"""
+
+condicion: bool = False
+
+"""
+Este tipo de if se llama "if sin condición" o "if sin expresión". En Python, es válido escribir un if sin una condición explícita. En este caso, el bloque de código dentro del if se ejecutará si la condición es evaluada como verdadera. Sin embargo, ten en cuenta que si no se proporciona una condición, el if siempre se considerará verdadero y el bloque de código se ejecutará en cada iteración o llamada.
+
+En la mayoría de los casos, es mejor evitar este tipo de if. Siempre que sea posible, es mejor proporcionar una condición explícita para que el código sea más legible y menos propenso a errores.
+
+En Python, los valores que se evalúan como verdaderos se denominan valores truthy, mientras que los valores que se evalúan como falsos se denominan valores falsy. Los valores truthy y falsy son una característica de Python que se utiliza para evaluar los valores booleanos de los objetos. Por ejemplo, los valores truthy y falsy se utilizan en las declaraciones if para evaluar si una condición es verdadera o falsa.
+
+Los siguientes valores se evalúan como falsos en Python:    
+>>> False
+
+>>> None
+
+>>> Cualquier número igual a cero (0, 0.0, 0j). int, float, complex
+Cualquier secuencia vacía (cadena vacía, lista vacía, tupla vacía). "",'',[],()
+es un set el ultimo
+
+>>> Cualquier conjunto vacío (conjunto vacío, diccionario vacío) set(), {}
+>>> Cualquier objeto cuya implementación de __bool__ devuelva False o __len__ devuelva 0
+"""
+if condicion:  # Es lo mismo que if condicion == True:
+    print("Se ejecuta la condición del if", end="\n")
+
+condicion: int = 5 * 5
+
+"""
+Esto es un if con condición o if con expresión
+if condicion == 10:
+"""
+if condicion == 10:
+    print("Se ejecuta la condición del segundo if", end="\n")
+
+# if, elif, else
+"""
+>>> if es una palabra reservada de python que se utiliza para hacer condicionales y se ejecuta cuando se cumple la condición del if
+
+>>> elif es una palabra reservada de python que se utiliza para hacer condicionales y se ejecuta cuando no se cumple la condición del if
+
+>>> else es una palabra reservada de python que se utiliza para hacer condicionales y se ejecuta cuando no se cumple ninguna condición
+
+"""
+if condicion > 10 and condicion < 20:
+    print("Es mayor que 10 y menor que 20", end="\n")
+elif condicion == 25:
+    print("Es igual a 25", end="\n")
+else:
+    print("Es menor o igual que 10 o mayor o igual que 20 o distinto de 25", end="\n")
+
+print("La ejecución continúa", end="\n")
+
+# Condicional con ispección de valor
+
+string: str = ""
+"""
+Al poner not antes de una condición se niega la condición 
+>>> si la condición es True se vuelve False
+>>> si la condición es False se vuelve True
+"""
+if not string:
+    print("Mi cadena de texto es vacía", end="\n")
+
+if string == "Mi cadena de textoooooo":
+    print("Estas cadenas de texto coinciden", end="\n")

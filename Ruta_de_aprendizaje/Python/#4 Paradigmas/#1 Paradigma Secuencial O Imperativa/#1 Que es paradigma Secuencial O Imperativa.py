@@ -4,6 +4,10 @@ En este paradigma, el programador escribe instrucciones que describen los pasos 
 El programa se ejecuta siguiendo exactamente los pasos descritos.
 """
 
+# Ejemplo de paradigma secuencial o imperativo
+
+# El juego de la serpiente snake
+
 import os
 import random
 

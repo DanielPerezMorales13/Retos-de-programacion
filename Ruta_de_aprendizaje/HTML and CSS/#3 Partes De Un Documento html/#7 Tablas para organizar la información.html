@@ -1,0 +1,107 @@
+<!-- 
+Las tablas son una forma de organizar la información en filas y columnas.
+Se utilizan para mostrar datos y se pueden personalizar con CSS.
+
+las tablas se crean con la etiqueta <table> y se cierran con </table> (las tablas se muestran en texto normal y alineadas a la izquierda por defecto)
+Las filas se crean con la etiqueta <tr> y se cierran con </tr> (las filas se muestran en texto normal y alineadas a la izquierda por defecto)
+Las columnas se crean con la etiqueta <td> y se cierran con </td> (las columnas se muestran en texto normal y alineadas a la izquierda por defecto)
+Las cabeceras se crean con la etiqueta <th> y se cierran con </th> (las cabeceras se muestran en negrita y centradas por defecto)
+
+<thead> se usa para la cabecera de la tabla (donde se colocan los títulos de las columnas)
+<tbody> se usa para el cuerpo de la tabla (donde se colocan los datos)
+<tfoot> se usa para el pie de la tabla (donde se colocan los totales)
+
+El uso de las tablas se ha reducido en los últimos años debido a que se pueden crear diseños más complejos con CSS. Sin embargo, las tablas siguen siendo útiles para mostrar datos, especialmente en dispositivos móviles.
+-->
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Secciones con los elementos de bloque</title>
+  </head>
+  <body>
+    <!-- Inicio bloque de inicio -->
+    <div>
+      <h2>Daniel Perez</h2>
+      <h3>#Programador</h3>
+      <h3>#Musico</h3>
+    </div>
+    <!-- Inicio bloque de fin -->
+
+    <!-- bloque sobre mi -->
+    <div>
+      <h2>Sobre mi</h2>
+      <p>
+        Con el respetuoso propósito de presentarme soy
+        <strong> Daniel Perez </strong>, me dirijo a ustedes como un programador
+        de 18 años especializado en áreas clave de la
+        <strong>tecnología informática.</strong>
+        <cite>
+          Mi experiencia y dedicación se han enfocado principalmente en el
+          desarrollo web, data science, pentesting y análisis de datos. Mi
+          habilidad para abordar desafíos complejos en estos campos se respalda
+          con una sólida formación técnica y un historial demostrado de éxitos
+          en proyectos significativos.
+        </cite>
+        Mi enfoque en el desarrollo web se ha centrado en la creación de
+        soluciones innovadoras, mientras que en el ámbito de la ciencia de
+        datos, me he dedicado a explorar y descifrar patrones ocultos para la
+        toma de decisiones informada. Además, mi experiencia en pentesting ha
+        sido esencial para garantizar la seguridad y la integridad de sistemas
+        informáticos. Estoy ansioso por aportar mis habilidades y conocimientos
+        a su equipo, contribuyendo a proyectos desafiantes y formando parte de
+        una empresa comprometida con la excelencia tecnológica.
+      </p>
+    </div>
+    <!-- fin bloque sobre mi -->
+
+    <!-- bloque portfolio -->
+    <div>
+      <h2>Portfolio</h2>
+      <h3>Una mirada mas alla del texto</h3>
+      <table>
+        <thead>
+          <!-- 
+            El atributo colspan se usa para combinar columnas y el atributo rowspan se usa para combinar filas. 
+            se le indica el numero de columnas o filas que se van a combinar en el atributo colspan o rowspan respectivamente
+            con colspan="4" se combina las 4 columnas en una sola y con rowspan="2" se combina las 2 filas en una sola
+            -->
+          <tr>
+            <td colspan="4" align="center">Datos Personales</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Edad</strong></td>
+            <td>18</td>
+            <td><strong>Departamento</strong></td>
+            <td>Managua</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <strong>Estudios</strong>
+            </td>
+            <td>Universidad Nacional de Ingenieria</td>
+            <td>
+              <strong>Especialidad</strong>
+            </td>
+            <td>Ingenieria en Computacion</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Aficion</strong>
+            </td>
+            <td>Musica</td>
+            <td>
+              <strong>Deporte</strong>
+            </td>
+            <td>Baseball</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <!-- fin bloque portfolio -->
+  </body>
+</html>

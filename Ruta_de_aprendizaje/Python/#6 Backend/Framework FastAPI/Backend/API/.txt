@@ -1,0 +1,86 @@
+@app.post(
+    path="/login/",
+    tags=["Login"],
+    status_code=status.HTTP_200_OK,
+    response_model=dict[str, str],
+    callbacks=None,
+    dependencies=None,
+    deprecated=None,
+    description="Iniciar sesión para obtener un token de acceso",
+    summary="Iniciar sesión",
+    response_description="Token de acceso",
+    response_model_include=None,
+    response_model_exclude=None,
+    response_model_by_alias=True,
+    response_model_exclude_none=False,
+    name="Iniciar sesión",
+    operation_id=None,
+    generate_unique_id_function=Default(generate_unique_id),
+    responses=None,
+    include_in_schema=True,
+    response_class=Default(JSONResponse),
+    openapi_extra=None,
+    response_model_exclude_defaults=False,
+    response_model_exclude_unset=False,
+)
+# * Dependencias de ruta en FastAPI son funciones que se ejecutan antes de que la función de ruta real se ejecute. Pueden ser funciones asíncronas y regulares.
+async def login(
+    formulario: OAuth2PasswordRequestForm = Depends(
+        dependency=OAuth2PasswordRequestForm, use_cache=True
+    ),
+) -> dict[str, str] | HTTPException:
+    identficador: dict | None = lista_clientes.get(str(formulario.client_id))
+
+    if not identficador:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Identificador no existe",
+            headers=dict(Acceso_denegado="Error"),
+        )
+    """
+    >>> ya que el metodo get() de un diccionario devuelve None si la clave no existe, podemos usarlo para verificar si un usuario existe en el diccionario.
+    
+    ya que si una variabe es None, es igual a if variable == None o if variable is None o if not variable o if variable == False
+    
+    
+    >>> if not usuario: es igual a if usuario == False
+    
+    >>> if usuario: es igual a if usuario == True
+    """
+    email: dict | None = (
+        lista_clientes[str(formulario.client_id)].get("email") if formulario.username == lista_clientes[str(formulario.client_id)].get("email")
+        else None
+    )
+    if not email:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail=f"Usuario no existe {formulario.username} = {lista_clientes[str(formulario.client_id)].get('email')}",
+            headers=dict(Acceso_denegado="Error"),
+        )
+    contraseña = await buscarContraseñaUsuario(
+        identificador=formulario.client_id,
+        usuario=formulario.username,
+    )
+    if not formulario.password == contraseña:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Credenciales incorrecta",
+            headers=dict(Acceso_denegado="Error"),
+        )
+    return dict(mensaje="Usuario autenticado correctamente")
+
+
+async def buscarContraseñaUsuario(
+    identificador: str,
+    usuario: str,
+) -> str:
+    for identificador_cliente in lista_clientes.keys():
+        if (
+            identificador_cliente == str(identificador)
+            and lista_clientes[identificador_cliente].get("email") == usuario
+        ):
+            return lista_clientes[identificador_cliente].get("contraseña")
+        else:
+            continue
+    else:
+        return "Contraseña incorrecta"

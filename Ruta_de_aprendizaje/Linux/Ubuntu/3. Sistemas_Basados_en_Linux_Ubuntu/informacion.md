@@ -5,8 +5,9 @@ _Sistemas basados en Linux Ubuntu_
 - [**_Usuarios en linux_**](#usuarios-en-linux)
 - [**_Configurando GRUB en Ubuntu_**](#configurando-grub-en-ubuntu)
 - [**_Atajo Linux!!_**](#atajo-linux)
-- [_Gestores de paquetes en Linux Ubuntu_](#gestores-de-paquetes-en-linux-ubuntu)
-- [_Cambiar el tema de la terminal en Ubuntu_](#cambiar-el-tema-de-la-terminal-en-ubuntu)
+- [**_Gestores de paquetes en Linux Ubuntu_**](#gestores-de-paquetes-en-linux-ubuntu)
+- [**_Cambiar el tema de la terminal en Ubuntu_**](#cambiar-el-tema-de-la-terminal-en-ubuntu)
+- [**_Permisos en linux_**](#permisos-en-linux)
 
 ---
 
@@ -36,7 +37,7 @@ _root es el nombre del usuario superusuario en sistemas Unix y Linux. El usuario
 
 _GRUB es el acrónimo de "GRand Unified Bootloader". En español, se podría traducir como "Cargador de Arranque Unificado Grande". Es un gestor de arranque múltiple, lo que significa que permite seleccionar entre diferentes sistemas operativos durante el arranque del equipo._
 
-_GRUB es muy flexible y potente, ya que puede cargar una amplia variedad de sistemas operativos y también puede cargar una gran cantidad de formatos de archivo de kernel._
+_GRUB es muy flexible y potente, ya que puede cargar una amplia variedad de sistemas operativos y también puede cargar una gran cantidad de formatos de fichero de kernel._
 
 _Por ejemplo, si tienes instalados Linux y Windows en la misma máquina, GRUB te permitirá elegir cuál de ellos quieres arrancar cuando enciendas tu computadora._
 
@@ -64,7 +65,7 @@ _Por ejemplo, si tienes instalados Linux y Windows en la misma máquina, GRUB te
 
       - > _Luego de editar el fichero debes ejecutar sudo update-grub y reiniciar el sistema operativo para aplicar los cambios._
 
-   4. _El fichero real de la configuracion del grub se encuentra en esta ruta **`/bootgrub/grub.cfg`**.Este archivo es la configuración principal de GRUB, el gestor de arranque._
+   4. _El fichero real de la configuracion del grub se encuentra en esta ruta **`/bootgrub/grub.cfg`**.Este fichero es la configuración principal de GRUB, el gestor de arranque._
 
       1. ```bash
           sudo nano /boot/grub/grub.cfg
@@ -74,13 +75,13 @@ _Por ejemplo, si tienes instalados Linux y Windows en la misma máquina, GRUB te
           cat /boot/grub/grub.cfg
          ```
 
-   - con cat`/bootgrub/grub.cfg` Este comando mostrará el contenido del archivo grub.cfg, que incluye las entradas del menú de arranque, las opciones de arranque y otros ajustes de GRUB. Este archivo normalmente no se edita directamente, sino que se genera a partir de otros archivos de configuración mediante el comando update-grub.
+   - con cat`/bootgrub/grub.cfg` Este comando mostrará el contenido del fichero grub.cfg, que incluye las entradas del menú de arranque, las opciones de arranque y otros ajustes de GRUB. Este fichero normalmente no se edita directamente, sino que se genera a partir de otros ficheros de configuración mediante el comando update-grub.
 
-   - La extensión .cfg se utiliza generalmente para archivos de configuración. Estos archivos contienen los ajustes para programas y aplicaciones. En este caso, grub.cfg contiene la configuración para el gestor de arranque GRUB.
+   - La extensión .cfg se utiliza generalmente para ficheros de configuración. Estos ficheros contienen los ajustes para programas y aplicaciones. En este caso, grub.cfg contiene la configuración para el gestor de arranque GRUB.
 
 3. ![img-grup#3](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-grub/img-grup%233.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-grub/img-grup%233.png?raw=true")
 
-   1. _La línea GRUB_DEFAULT=0 es una configuración en el archivo de configuración de GRUB, que normalmente se encuentra en /etc/default/grub en sistemas Linux._
+   1. _La línea GRUB_DEFAULT=0 es una configuración en el fichero de configuración de GRUB, que normalmente se encuentra en /etc/default/grub en sistemas Linux._
 
       - _GRUB_DEFAULT controla qué entrada del menú de GRUB se selecciona por defecto cuando el sistema arranca. Las entradas del menú se cuentan desde 0, por lo que GRUB_DEFAULT=0 significa que se seleccionará la primera entrada del menú._
 
@@ -94,7 +95,7 @@ _Por ejemplo, si tienes instalados Linux y Windows en la misma máquina, GRUB te
 
 4. ![img-grup#4](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-grub/img-grup%234.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-grub/img-grup%234.png?raw=true")
 
-   1. _La línea GRUB_TIMEOUT=10 es una configuración en el archivo de configuración de GRUB, que normalmente se encuentra en /etc/default/grub en sistemas Linux._
+   1. _La línea GRUB_TIMEOUT=10 es una configuración en el fichero de configuración de GRUB, que normalmente se encuentra en /etc/default/grub en sistemas Linux._
 
       - _GRUB_TIMEOUT controla cuánto tiempo (en segundos) GRUB espera antes de arrancar automáticamente la entrada del menú por defecto. En este caso, GRUB_TIMEOUT=10 significa que GRUB esperará 10 segundos antes de arrancar la entrada por defecto._
 
@@ -128,7 +129,7 @@ _Por ejemplo, si tienes instalados Linux y Windows en la misma máquina, GRUB te
 
 ---
 
-# _Gestores de paquetes en Linux Ubuntu_
+# **_Gestores de paquetes en Linux Ubuntu_**
 
 > _Los gestores de paquetes más comunes en Ubuntu son APT,Snap y dpkg._
 
@@ -188,9 +189,9 @@ _Para añadir un repositorio, utilizamos el comando `add-apt-repository`. Aquí 
 
 - _`sudo`: Ejecuta el comando como superusuario._
 - _`add-apt-repository`: Añade un repositorio a la lista de fuentes de paquetes de APT._
-- _`ppa:user/repo`: El repositorio que quieres añadir. PPA significa Personal Package Archive que es su traduccion es Archivo de Paquetes Personal._
+- _`ppa:user/repo`: El repositorio que quieres añadir. PPA significa Personal Package Archive que es su traduccion es fichero de Paquetes Personal._
 
-**Ejemplo**
+**_Ejemplo_**
 
 ```bash
 sudo add-apt-repository ppa:mmstick76/alacritty
@@ -224,7 +225,7 @@ _Cuando se usa con dpkg, el comando `-i` o `--install` indica que se debe instal
 
 ---
 
-# _Cambiar el tema de la terminal en Ubuntu_
+# **_Cambiar el tema de la terminal en Ubuntu_**
 
 1. _Abre la terminal._
 
@@ -371,10 +372,348 @@ _Cuando se usa con dpkg, el comando `-i` o `--install` indica que se debe instal
 
 2. _Se nos creara un perfil lo seleccionamos y le damos como predeterminado_
 
-   1. [theme-terminal#1]("")
-   2. [theme-terminal#2]("")
+   1. ![theme-terminal#1](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%231.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%231.png?raw=true")
+   2. ![theme-terminal#2](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%232.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%232.png?raw=true")
 
 3. _Configurando fuente, transparencia, tamaño_
 
-   1. [theme-terminal#3]("")
-   2. [theme-terminal#4]("")
+   1. ![theme-terminal#3](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%233.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%233.png?raw=true")
+   2. ![theme-terminal#4](https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%234.png?raw=true "https://github.com/Danitrix13/Retos-de-programacion/blob/master/Ruta_de_aprendizaje/Linux/Ubuntu/Images/Png/img-tema-terminal/theme-terminal%234.png?raw=true")
+
+> _Instalación de curl en Ubuntu_
+
+_curl es una herramienta de línea de comandos que permite transferir datos desde o hacia un servidor. Soporta una multitud de protocolos, incluyendo HTTP, HTTPS, FTP y SFTP. Es muy útil para descargar ficheros, probar APIs y mucho más._
+
+_Para instalar curl en Ubuntu, puedes usar el comando `apt-get install` de la siguiente manera:_
+
+```bash
+sudo apt-get install curl
+```
+
+---
+
+# **_Permisos en linux_**
+
+> _En linux existen diferentes tipos de permisos para los ficheros y directorios, estos son: **lectura**, **escritura** y **ejecución**. Los tres primeros son para el usuario, los otros tres permisos son para grupos y los ultimos tres permisos son para otros usuario_
+
+1. _**Lectura**: Permite ver el contenido del fichero o directorio._
+
+2. _**Escritura**: Permite modificar el contenido del fichero o directorio._
+
+3. _**Ejecución**: Permite ejecutar el fichero o acceder al directorio._
+
+4. _**Orden**: El primero es lectura, el segundo escritura el ultimo. `---------` significa que el archivo o directorio no tiene ningún permiso establecido para el propietario, el grupo y otros usuarios._
+
+> para ver los permisos de un fichero o directorio, utilizamos el comando `ls -l`.
+
+1. _Si es un fichero, el primer carácter será una -._
+
+   1. ```bash
+      ls -l fichero.py
+      ```
+
+   2. **Output**: `-rw-rw-r-- 1 daniel daniel    0 feb  1 16:04 fichero.py`
+
+      1. `-rw-rw-r--`: _Estos son los permisos del archivo. Se dividen en cuatro partes:_
+
+      2. _El primer carácter `-` indica el tipo de archivo. Un `-` significa que es un archivo regular. Algunos otros valores posibles incluyen `d` para directorios y `l` para enlaces simbólicos._
+
+      3. _Los siguientes tres caracteres `rw-` representan los permisos del propietario del archivo. En este caso, el propietario tiene permisos de lectura `(r)` y escritura `(w)`._
+
+      4. _Los siguientes tres caracteres `rw-` representan los permisos del grupo del archivo. Al igual que el propietario, el grupo tiene permisos de lectura `(r)` y escritura `(w)`._
+
+      5. _Los últimos tres caracteres `r--` representan los permisos de todos los demás usuarios. En este caso, otros usuarios solo tienen permisos de lectura `(r)`._
+
+      6. _`1`: Este es el número de enlaces al archivo. Un archivo regular tendrá al menos 1._
+
+      7. _`daniel`: El primer daniel es el propietario del archivo._
+
+      8. _`daniel`: El segundo daniel es el grupo del archivo._
+
+      9. _`0`: Este es el tamaño del archivo en bytes._
+
+      10. _`feb 1 16:04`: Esta es la fecha y hora de la última modificación del archivo._
+
+      11. _`fichero.py`: Este es el nombre del archivo._
+
+2. _Si es un directorio, el primer carácter será una d._
+
+   1. ```bash
+      ls -l fichero.py
+      ```
+
+      1. _Output: `drwxrwxr-x`: Estos son los permisos del directorio. Se dividen en cuatro partes:_
+
+         1. _El primer carácter d indica el tipo. Un d significa que es un directorio._
+
+         2. _Los siguientes tres caracteres rwx representan los permisos del grupo del directorio. Al igual que el propietario, el grupo tiene permisos de lectura `(r)`, escritura `(w)` y ejecución `(x)`._
+
+         3. _Los últimos tres caracteres r-x representan los permisos de todos los demás usuarios. En este caso, otros usuarios tienen permisos de lectura `(r)` y ejecución `(x)`, pero no de escritura._
+
+         4. _`2`: Este es el número de enlaces al directorio. Para los directorios, este número es el número de subdirectorios + 2 (uno por el directorio mismo y otro por su directorio padre)._
+
+         5. _`daniel`: El primer daniel es el propietario del directorio._
+
+         6. _`daniel`: El segundo daniel es el grupo del directorio._
+
+         7. _`4096:` Este es el tamaño del directorio en bytes. Este número representa el tamaño del espacio en disco que se utiliza para almacenar las metainformaciones del directorio, pero no el tamaño de los archivos dentro del directorio._
+
+         8. _`feb 1 16:04`: Esta es la fecha y hora de la última modificación del directorio._
+
+         9. _`directorio`: Este es el nombre del directorio._
+
+> _En la primera posición, un guion `-` indica que el elemento es un archivo regular. Otros posibles valores en esta posición incluyen `d` para directorios, `l` para enlaces simbólicos, `s` para sockets, `p` para pipes, `c` para archivos de caracteres especiales y `b` para archivos de bloques especiales._
+
+1. > _un guion `-` indica la ausencia de un permiso. Los permisos se representan con las letras `r` para lectura, `w` para escritura y `x` para ejecución. Si uno de estos permisos no está presente, se representa con un guion `-`._
+
+2. _Si es un enlace simbólico, el primer carácter será una l._
+
+3. _Si es un fichero regular, el primer carácter será un guion._
+
+4. > _Para cambiar los permisos de un fichero o directorio, utilizamos el comando `chmod`._
+
+> _`chmod [opciones] modo archivo`_
+
+-._`u` (usuario), `g` (grupo), `o` (otros), `a` (todos): especifica a quién se aplicarán los cambios._
+
+-._`+` (añadir permisos), `-` (quitar permisos), `=` (establecer permisos): especifica qué acción se realizará._
+
+-._`r` (lectura), `w` (escritura), `x` (ejecución): especifica qué permisos se cambiarán._
+
+-._Añadir permisos al usuario_
+
+1. ```bash
+   chmod u+w fichero.py
+   ```
+
+2. ```bash
+   chmod u+r fichero.py
+   ```
+
+3. ```bash
+   chmod u+x fichero.py
+   ```
+
+-. _Añadir permisos al grupo_
+
+1. ```bash
+   chmod g+w fichero.py
+   ```
+
+2. ```bash
+   chmod g+r fichero.py
+   ```
+
+3. ```bash
+   chmod g+x fichero.py
+   ```
+
+-. _Añadir permisos a otros usarios_
+
+1. ```bash
+   chmod o+w fichero.py
+   ```
+
+2. ```bash
+   chmod o+r fichero.py
+   ```
+
+3. ```bash
+   chmod o+x fichero.py
+   ```
+
+-. _Quitar permisos al usuario_
+
+1. ```bash
+   chmod u-w fichero.py
+   ```
+
+2. ```bash
+   chmod u-r fichero.py
+   ```
+
+3. ```bash
+   chmod u-x fichero.py
+   ```
+
+-. _Quitar permisos al grupo_
+
+1. ```bash
+   chmod g-w fichero.py
+   ```
+
+2. ```bash
+   chmod g-r fichero.py
+   ```
+
+3. ```bash
+   chmod g-x fichero.py
+   ```
+
+-. _Quitar permisos a otros usarios_
+
+1. ```bash
+   chmod o-w fichero.py
+   ```
+
+2. ```bash
+   chmod o-r fichero.py
+   ```
+
+3. ```bash
+   chmod o-x fichero.py
+   ```
+
+-. _Añadir multiples permisos separando por coma_
+
+1. ```bash
+   chmod u+x,g+r,o+w fichero.py
+   ```
+
+2. ```bash
+   chmod u-x,g-r,o-w fichero.py
+   ```
+
+3. ```bash
+   chmod u-x,g+r,g+x fichero.py
+   ```
+
+-. \*Establecer permisos de lectura y escritura y ejecucion para todos los usuarios en el archivo fichero.py **a: Esto significa "todos", que incluye al usuario propietario, al grupo y a otros usuarios.**
+
+1. ```bash
+   chmod a=rwx fichero.py
+   ```
+
+2. ```bash
+   chmod a=rw fichero.py
+   ```
+
+3. ```bash
+   chmod a=r fichero.py
+   ```
+
+> _Los permisos en Linux se pueden representar en forma binaria, pero la representación binaria se convierte a decimal para su uso con el comando chmod._
+
+1. _`r (lectura)` se representa como `4` en decimal, `100` en binario._
+
+2. _`w (escritura)` se representa como `2` en decimal, `010` en binario._
+
+3. _`x (ejecución)` se representa como `1` en decimal, `001` en binario._
+
+> _Por lo tanto, si quieres dar permisos de lectura, escritura y ejecución al propietario `(rwx)`, y solo lectura al grupo y a otros `(r--)`_
+
+1. ```bash
+   chmod 744 fichero.py
+   ```
+
+> _En este caso, `7` `(4+2+1)` en decimal representa `rwx` en binario para el propietario, y `4` en decimal representa `r--` en binario para el grupo y otros. `-rwxr--r-- 1 daniel daniel    0 feb  1 16:04 fichero.py`_
+
+1. `000` es igual a `---` (ningún permiso)
+2. `001` es igual a `--x` (permiso de ejecución)
+3. `010` es igual a `-w-` (permiso de escritura)
+4. `011` es igual a `-wx` (permisos de escritura y ejecución)
+5. `100` es igual a `r--` (permiso de lectura)
+6. `101` es igual a `r-x` (permisos de lectura y ejecución)
+7. `110` es igual a `rw-` (permisos de lectura y escritura)
+8. `111` es igual a `rwx` (permisos de lectura, escritura y ejecución)
+
+| Decimal | Binario |
+| ------- | ------- |
+| 0       | 0000    |
+| 1       | 0001    |
+| 2       | 0010    |
+| 3       | 0011    |
+| 4       | 0100    |
+| 5       | 0101    |
+| 6       | 0110    |
+| 7       | 0111    |
+| 8       | 1000    |
+| 9       | 1001    |
+| 10      | 1010    |
+| 11      | 1011    |
+| 12      | 1100    |
+| 13      | 1101    |
+| 14      | 1110    |
+| 15      | 1111    |
+
+- Los siguientes tres caracteres `---` representan los permisos del grupo del archivo. Al igual que el propietario, el grupo no tiene permisos de lectura, escritura ni ejecución.
+
+- Los últimos tres caracteres `---` representan los permisos de todos los demás usuarios. En este caso, otros usuarios tampoco tienen permisos de lectura, escritura ni ejecución.
+
+Por lo tanto, un archivo con permisos `---------` no sería accesible para ninguna operación de lectura, escritura o ejecución.
+
+> _Un **enlace duro** es esencialmente un nombre adicional para un archivo existente en los sistemas de archivos de Unix y Linux. Todos los enlaces duros a un archivo realmente se refieren al mismo archivo, y es posible tener varios enlaces duros a un solo archivo._ > _Un **enlace simbólico** (también conocido como symlink o soft link) es un tipo especial de archivo que sirve como referencia a otro archivo o directorio._
+
+**Conceptos y usos:**
+
+- _Los enlaces duros son útiles cuando quieres tener acceso rápido a un archivo que está en un directorio diferente sin tener que navegar a ese directorio._
+
+- _Los enlaces simbólicos son útiles cuando quieres crear un enlace a un directorio (los enlaces duros a directorios no están permitidos en Linux) o cuando quieres crear un enlace a un archivo que está en otro sistema de archivos._
+
+**Para crear un enlace duro:**
+
+```bash
+ln archivo_origen enlace_duro
+```
+
+```bash
+ln fichero.py enlace_duro.py
+```
+
+**Para crear un enlace simbólico:**
+
+```bash
+ln -s archivo_origen enlace_simbolico
+```
+
+`-s, --symbolic              crea enlaces simbólicos en vez de enlaces duros`
+
+```bash
+ln -s fichero.py enlace_simbolico.py
+```
+
+**output**: `lrwxrwxrwx 1 daniel daniel 20 feb  2 13:03 enlace_simbolico.py -> ./carpeta/fichero.py`
+
+_`l` significa que es un enlace simbólico._
+
+_`enlace_simbolico.py`: Este es el nombre del enlace simbólico._
+
+_`->`: Este símbolo indica que el archivo es un enlace simbólico que apunta a otro archivo._
+
+_`./carpeta/fichero.py`: Este es el archivo al que apunta el enlace simbólico. En este caso, el enlace simbólico enlace_simbolico.py apunta al archivo fichero.py en el directorio carpeta_
+
+**Ejemplo en código:**
+
+Supongamos que tienes un archivo llamado `fichero.py` y quieres crear un enlace duro llamado `enlace_duro` y un enlace simbólico llamado `enlace_simbolico`.
+
+Para el enlace duro, usarías:
+
+```bash
+ln fichero.py enlace_duro
+```
+
+Para el enlace simbólico, usarías:
+
+```bash
+ln -s fichero.py enlace_simbolico
+```
+
+Después de ejecutar estos comandos, tanto `enlace_duro` como `enlace_simbolico` apuntarán a `fichero1.py`. Sin embargo, si `fichero1.py` se mueve o se elimina, `enlace_duro` seguirá apuntando al contenido del archivo original, mientras que `enlace_simbolico` se romperá y no apuntará a nada.
+
+**un enlace simbólico es similar a un acceso directo en Windows. Apunta a la ubicación de un archivo o directorio real en el sistema de archivos.**
+
+**_Utilidades de Enlaces duros y simbolicos_**
+
+> _Los enlaces simbólicos y duros son útiles para hacer que un archivo o directorio esté disponible en múltiples ubicaciones sin duplicar el contenido real._
+
+**Enlaces duros:**
+
+1. **Backup de archivos**: _Los enlaces duros pueden ser útiles para hacer copias de seguridad de archivos. Si creas un enlace duro a un archivo y luego modificas el archivo, el enlace duro reflejará los cambios, ya que ambos apuntan a los mismos datos._
+
+**Enlaces simbólicos:**
+
+1. **Versionado de software**: _Los enlaces simbólicos son comúnmente utilizados para cambiar fácilmente entre diferentes versiones de un programa. Por ejemplo, podrías tener `programa-1.0` y `programa-1.1` en tu sistema, con un enlace simbólico llamado `programa` que apunta a la versión que deseas usar. Cuando quieras cambiar de versión, simplemente cambias a qué versión apunta el enlace simbólico._
+
+2. **Crear accesos rápidos**: _Los enlaces simbólicos pueden actuar como accesos rápidos a archivos o directorios que se utilizan con frecuencia. Por ejemplo, podrías tener un enlace simbólico a un directorio de logs o a un archivo de configuración en tu directorio de inicio para un acceso rápido._
+
+> _Recuerda que los enlaces duros no pueden referirse a directorios ni pueden cruzar sistemas de archivos, mientras que los enlaces simbólicos pueden hacer ambas cosas._

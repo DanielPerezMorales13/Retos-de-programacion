@@ -1,7 +1,7 @@
 """
 Al decorar una clase, se crea una nueva clase que hereda de la clase original.
 Esto significa que la nueva clase tiene todos los atributos y métodos de la clase original.
-Por lo tanto, podemos agregar nuevos métodos y atributos a la clase decorada.
+Por lo tanto, podemos agregar nuevos métodos y atributos a la clase decorada. Pero cabe recalcar que si verificamos si la clase decorada es una instancia de la clase original, el resultado será False.
 """
 
 
