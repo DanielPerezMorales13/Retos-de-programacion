@@ -8,6 +8,8 @@ _Sistemas basados en Linux Ubuntu_
 - [**_Gestores de paquetes en Linux Ubuntu_**](#gestores-de-paquetes-en-linux-ubuntu)
 - [**_Cambiar el tema de la terminal en Ubuntu_**](#cambiar-el-tema-de-la-terminal-en-ubuntu)
 - [**_Permisos en linux_**](#permisos-en-linux)
+- [***Curl***](#curl)
+- [***Jerarquia de directorios***](#jerarquia-de-directorios)
 
 ---
 
@@ -456,13 +458,13 @@ sudo apt-get install curl
 
          6. _`daniel`: El segundo daniel es el grupo del directorio._
 
-         7. _`4096:` Este es el tamaño del directorio en bytes. Este número representa el tamaño del espacio en disco que se utiliza para almacenar las metainformaciones del directorio, pero no el tamaño de los archivos dentro del directorio._
+         7. _`4096:` Este es el tamaño del directorio en bytes. Este número representa el tamaño del espacio en disco que se utiliza para almacenar las metainformaciones del directorio, pero no el tamaño de los ficheros dentro del directorio._
 
          8. _`feb 1 16:04`: Esta es la fecha y hora de la última modificación del directorio._
 
          9. _`directorio`: Este es el nombre del directorio._
 
-> _En la primera posición, un guion `-` indica que el elemento es un archivo regular. Otros posibles valores en esta posición incluyen `d` para directorios, `l` para enlaces simbólicos, `s` para sockets, `p` para pipes, `c` para archivos de caracteres especiales y `b` para archivos de bloques especiales._
+> _En la primera posición, un guion `-` indica que el elemento es un archivo regular. Otros posibles valores en esta posición incluyen `d` para directorios, `l` para enlaces simbólicos, `s` para sockets, `p` para pipes, `c` para ficheros de caracteres especiales y `b` para ficheros de bloques especiales._
 
 1. > _un guion `-` indica la ausencia de un permiso. Los permisos se representan con las letras `r` para lectura, `w` para escritura y `x` para ejecución. Si uno de estos permisos no está presente, se representa con un guion `-`._
 
@@ -642,13 +644,13 @@ sudo apt-get install curl
 
 Por lo tanto, un archivo con permisos `---------` no sería accesible para ninguna operación de lectura, escritura o ejecución.
 
-> _Un **enlace duro** es esencialmente un nombre adicional para un archivo existente en los sistemas de archivos de Unix y Linux. Todos los enlaces duros a un archivo realmente se refieren al mismo archivo, y es posible tener varios enlaces duros a un solo archivo._ > _Un **enlace simbólico** (también conocido como symlink o soft link) es un tipo especial de archivo que sirve como referencia a otro archivo o directorio._
+> _Un **enlace duro** es esencialmente un nombre adicional para un archivo existente en los sistemas de ficheros de Unix y Linux. Todos los enlaces duros a un archivo realmente se refieren al mismo archivo, y es posible tener varios enlaces duros a un solo archivo._ > _Un **enlace simbólico** (también conocido como symlink o soft link) es un tipo especial de archivo que sirve como referencia a otro archivo o directorio._
 
 **Conceptos y usos:**
 
 - _Los enlaces duros son útiles cuando quieres tener acceso rápido a un archivo que está en un directorio diferente sin tener que navegar a ese directorio._
 
-- _Los enlaces simbólicos son útiles cuando quieres crear un enlace a un directorio (los enlaces duros a directorios no están permitidos en Linux) o cuando quieres crear un enlace a un archivo que está en otro sistema de archivos._
+- _Los enlaces simbólicos son útiles cuando quieres crear un enlace a un directorio (los enlaces duros a directorios no están permitidos en Linux) o cuando quieres crear un enlace a un archivo que está en otro sistema de ficheros._
 
 **Para crear un enlace duro:**
 
@@ -700,7 +702,7 @@ ln -s fichero.py enlace_simbolico
 
 Después de ejecutar estos comandos, tanto `enlace_duro` como `enlace_simbolico` apuntarán a `fichero1.py`. Sin embargo, si `fichero1.py` se mueve o se elimina, `enlace_duro` seguirá apuntando al contenido del archivo original, mientras que `enlace_simbolico` se romperá y no apuntará a nada.
 
-**un enlace simbólico es similar a un acceso directo en Windows. Apunta a la ubicación de un archivo o directorio real en el sistema de archivos.**
+**un enlace simbólico es similar a un acceso directo en Windows. Apunta a la ubicación de un archivo o directorio real en el sistema de ficheros.**
 
 **_Utilidades de Enlaces duros y simbolicos_**
 
@@ -708,12 +710,144 @@ Después de ejecutar estos comandos, tanto `enlace_duro` como `enlace_simbolico`
 
 **Enlaces duros:**
 
-1. **Backup de archivos**: _Los enlaces duros pueden ser útiles para hacer copias de seguridad de archivos. Si creas un enlace duro a un archivo y luego modificas el archivo, el enlace duro reflejará los cambios, ya que ambos apuntan a los mismos datos._
+1. **Backup de ficheros**: _Los enlaces duros pueden ser útiles para hacer copias de seguridad de ficheros. Si creas un enlace duro a un archivo y luego modificas el archivo, el enlace duro reflejará los cambios, ya que ambos apuntan a los mismos datos._
 
 **Enlaces simbólicos:**
 
 1. **Versionado de software**: _Los enlaces simbólicos son comúnmente utilizados para cambiar fácilmente entre diferentes versiones de un programa. Por ejemplo, podrías tener `programa-1.0` y `programa-1.1` en tu sistema, con un enlace simbólico llamado `programa` que apunta a la versión que deseas usar. Cuando quieras cambiar de versión, simplemente cambias a qué versión apunta el enlace simbólico._
 
-2. **Crear accesos rápidos**: _Los enlaces simbólicos pueden actuar como accesos rápidos a archivos o directorios que se utilizan con frecuencia. Por ejemplo, podrías tener un enlace simbólico a un directorio de logs o a un archivo de configuración en tu directorio de inicio para un acceso rápido._
+2. **Crear accesos rápidos**: _Los enlaces simbólicos pueden actuar como accesos rápidos a ficheros o directorios que se utilizan con frecuencia. Por ejemplo, podrías tener un enlace simbólico a un directorio de logs o a un archivo de configuración en tu directorio de inicio para un acceso rápido._
 
-> _Recuerda que los enlaces duros no pueden referirse a directorios ni pueden cruzar sistemas de archivos, mientras que los enlaces simbólicos pueden hacer ambas cosas._
+> _Recuerda que los enlaces duros no pueden referirse a directorios ni pueden cruzar sistemas de ficheros, mientras que los enlaces simbólicos pueden hacer ambas cosas._
+
+---
+
+# ***Curl***
+
+> *`cURL` es una herramienta de línea de comandos y una biblioteca para transferir datos con URL. El nombre `cURL` significa "Client URL". Aunque no es un acrónimo oficial, a veces se interpreta como "See URL".*
+
+- *cURL soporta una amplia variedad de protocolos, incluyendo HTTP, HTTPS, FTP, FTPS, SFTP, SCP, LDAP, LDAPS, DICT, TELNET, FILE, IMAP, POP3, SMTP y otros.*
+
+1. **Hacer una solicitud HTTP GET**: *Este es el uso más básico de cURL. Simplemente especifica la URL a la que quieres hacer la solicitud.*
+
+   - ```bash
+      curl https://www.example.com
+      ```
+
+2. **Hacer una solicitud HTTP POST**: *Puedes usar la opción `-d` (o `--data`) para enviar datos como parte de una solicitud POST.El `-X` en cURL se utiliza para especificar un método de solicitud personalizado cuando se comunica con un servidor HTTP. Por ejemplo, puedes usar `-X POST` para hacer una solicitud POST o `-X DELETE` para hacer una solicitud DELETE.*
+
+   - ```bash
+      curl -d "param1=value1&param2=value2" -X POST https://www.example.com
+      ```
+
+3. **Enviar un archivo como parte de una solicitud POST**: *Puedes usar la opción `-F` (o `--form`) para enviar un archivo como parte de una solicitud POST.*
+
+   - ```bash
+      curl -F "file=@/path/to/file" https://www.example.com
+      ```
+
+4. **Guardar la salida a un archivo**: *Puedes usar la opción `-o` (o `--output`) para guardar la salida de cURL a un archivo.*
+
+   - ```bash
+      curl -o output.html https://www.example.com
+      ```
+
+5. **Enviar encabezados personalizados**: *Puedes usar la opción `-H` (o `--header`) para enviar encabezados personalizados.*
+
+   - ```bash
+      curl -H "Content-Type: application/json" https://www.example.com
+      ```
+
+6. *El `-s` en cURL significa "silencioso" o "silencio". Cuando se utiliza con cURL, `-s` hace que cURL no muestre el progreso de la transferencia ni los mensajes de error.*
+
+   - ```bash
+      curl https://www.example.com
+      ```
+
+7. *El `-l` en cURL se utiliza con el protocolo FTP y significa "lista". Cuando se utiliza con cURL, `-l` hará que cURL liste los nombres de los ficheros en el directorio del servidor FTP en lugar de descargarlos.*
+
+   - ```bash
+      curl https://www.example.com
+      ```
+
+8. *El comando `curl --help` mostrará una lista de todas las opciones disponibles que puedes usar con cURL. Esta es una buena manera de aprender sobre las diferentes opciones y cómo se pueden usar.*
+
+   - ```bash
+      curl https://www.example.com
+      ```
+
+---
+
+# ***Jerarquia de directorios***
+
+> *En los sistemas Linux, la jerarquía de directorios se organiza de acuerdo con el estándar Filesystem Hierarchy Standard (FHS).*
+
+- *`/bin`: Contiene los binarios ejecutables esenciales que deben estar disponibles en modo de usuario único, es decir, incluso si solo se monta el sistema de ficheros raíz.*
+
+- *`/boot`: Contiene los ficheros necesarios para el arranque del sistema, como el kernel de Linux, initrd. `initrd` significa "RAM disk de inicialización". Es una característica del sistema operativo Linux que carga una imagen de disco temporal en la memoria al arrancar el sistema. Esta imagen de disco (o "RAM disk") puede contener programas y ficheros binarios que el sistema necesita para arrancar, antes de que se monten los sistemas de ficheros reales.*
+
+- *`/dev`: Contiene ficheros de dispositivo, que son interfaces para los dispositivos de hardware.*
+  
+  - *Ejemplos: `/dev/sda` (primer dispositivo de disco duro), `/dev/tty1` (primera terminal virtual).*
+
+- *`/etc`: Contiene ficheros de configuración del sistema y los directorios de los servicios del sistema.*
+
+- *`/home`: Contiene los directorios personales de los usuarios.*
+
+- *`/lib`, `/lib32`, `/lib64`, `/libx32`: Contienen bibliotecas compartidas y módulos del kernel necesarios para arrancar el sistema y ejecutar los comandos en el sistema de ficheros raíz.*
+
+- *`/media`: Punto de montaje para dispositivos extraíbles como USBs, CDs.*
+
+- *`/mnt`: Punto de montaje temporal para sistemas de ficheros montados manualmente.*
+
+- *`/opt`: Contiene software y paquetes de aplicaciones opcionales que no forman parte de la distribución estándar del sistema. Esto puede incluir tanto software de código abierto como software propietario. Pero mas de software propietario*
+
+- *`/proc`: Sistema de ficheros virtual que proporciona información del sistema y del proceso. No contiene ficheros reales sino información dinámica del sistema.*
+
+  - ```bash
+    top
+    ```
+
+  - *El comando `top` en Linux es una herramienta útil que proporciona una vista dinámica en tiempo real de los procesos en ejecución en un sistema. Es similar al Administrador de Tareas en Windows.*
+
+  - *`top` muestra información sobre el uso de la CPU, la memoria, el tiempo de actividad del sistema, la carga y otros detalles del sistema. También muestra una lista de los procesos actuales ordenados por varios campos, como el uso de la CPU y la memoria.*
+
+  - *La información que muestra `top` se obtiene de varios lugares:*
+
+  - *La información del sistema (tiempo de actividad, carga, número de procesos, etc.) se obtiene de `/proc/uptime`, `/proc/loadavg` y `/proc/stat`.*
+  
+  - *La información de la memoria (memoria total, memoria libre, memoria usada, etc.) se obtiene de `/proc/meminfo`.*
+  
+  - *La lista de procesos y la información de cada proceso (PID, usuario, uso de la CPU, uso de la memoria, estado, etc.) se obtiene de los ficheros en el directorio `/proc/[pid]`, donde `[pid]` es el ID del proceso.*
+
+  - *Se usa `top` para monitorizar el rendimiento del sistema, comprobar qué procesos están consumiendo más recursos, y gestionar procesos directamente desde la interfaz de `top`*
+
+- *`/root`: Directorio personal del usuario root.*
+
+- *`/run`: Este directorio es un sistema de ficheros temporal almacenado en la memoria (tmpfs) que se monta al arrancar el sistema. Contiene información sobre el sistema desde que se arrancó y hasta que se apaga. Es volátil en el sentido de que los datos almacenados en este directorio no persisten después de un reinicio. Algunos de los datos que se almacenan aquí incluyen ficheros de bloqueo (lock files), ficheros PID (que almacenan los identificadores de proceso de los servicios en ejecución), y otros ficheros temporales necesarios para el funcionamiento correcto de los servicios en ejecución. Por ejemplo, el sistema de inicio systemd utiliza este directorio para almacenar información de estado y control sobre los servicios que gestiona.*
+
+- *`/sbin`: Contiene binarios ejecutables esenciales utilizados por el sistema y el administrador del sistema o el usuario root.*
+
+- *`/snap`: Este directorio contiene las aplicaciones empaquetadas en el formato Snap.*
+
+- *`/srv`: Este directorio contiene datos específicos del sitio que se sirven por el sistema. Según el estándar Filesystem Hierarchy Standard (FHS), este directorio está destinado a contener datos para servicios proporcionados por el sistema. Por ejemplo, si el sistema está ejecutando un servidor web, los ficheros y directorios que se sirven a través del servidor web pueden residir en `/srv`. La idea es que este directorio contenga aquellos ficheros que son servidos a otros usuarios y sistemas, ya sea a través de un servidor web, FTP, rsync, etc. La estructura exacta y la organización de los directorios y ficheros bajo `/srv` dependen del administrador del sistema y de cómo se configuran los servicios específicos.*
+
+- *`/sys`: Este es un sistema de ficheros virtual, también conocido como sysfs, que se utiliza como una interfaz de comunicación entre el espacio del kernel y el espacio del usuario en Linux. Proporciona una estructura de ficheros para acceder a la información del kernel, incluyendo información sobre dispositivos de hardware (como USB, discos duros, etc.) y sus controladores. A diferencia de `/proc`, que es un sistema de ficheros general para una amplia gama de información del sistema, `/sys` se centra principalmente en la información del dispositivo y del controlador. Por ejemplo, puedes encontrar información sobre los buses de dispositivos, los dispositivos conectados, y sus controladores en los directorios `/sys/bus`, `/sys/devices` y `/sys/drivers` respectivamente. Sin embargo, a diferencia de los sistemas de ficheros normales, `/sys` no contiene ficheros reales en el disco. En su lugar, cuando lees los ficheros en `/sys`, estás leyendo valores directamente de la memoria del kernel.*
+
+- *`/tmp`: Contiene ficheros temporales creados por el sistema y los usuarios.*
+
+- *`/usr`: Contiene ficheros compartidos, lectura solamente, como ficheros de sistema y de aplicación.*
+
+- *`/var`: Contiene ficheros cuyo contenido se espera que crezca, como logs, colas de correo, etc.*
+
+  - ```bash
+    cat /var/log/apt/history.log
+    ```
+
+  > *El comando `cat /var/log/apt/history.log` se utiliza para ver el historial de las operaciones de gestión de paquetes realizadas con `apt` o `apt-get` en sistemas Linux basados en Debian, como Ubuntu.*
+
+  - *El archivo `/var/log/apt/history.log` registra todas las operaciones de `apt`, incluyendo las instalaciones, actualizaciones y eliminaciones de paquetes. Cada entrada en el archivo de registro incluye la fecha y hora de la operación, el comando exacto que se utilizó, y una lista de los paquetes afectados.*
+
+- *`/cdrom`: En muchos sistemas Linux, `/cdrom` es un punto de montaje donde se montan los discos CD-ROM. Cuando insertas un CD en tu computadora, el sistema operativo puede montar automáticamente el CD en este directorio para que puedas acceder a los ficheros del CD. Sin embargo, en algunos sistemas modernos, los CD-ROM y otros medios extraíbles pueden montarse en otros lugares, como `/media`.*
+
+- *`/lost+found`: Este es un directorio especial que existe en cada sistema de ficheros en un sistema Linux. Cuando el sistema de ficheros se recupera después de un cierre inesperado (por ejemplo, después de un corte de energía), el comando `fsck` (comprobación del sistema de ficheros) se ejecuta para verificar la integridad del sistema de ficheros. Si `fsck` encuentra bloques de datos que no están referenciados en ninguna parte del sistema de ficheros, los moverá a `/lost+found`. Cada sistema de ficheros tiene su propio directorio `/lost+found`, por lo que si tienes varios sistemas de ficheros, tendrás varios directorios `/lost+found`. En la mayoría de los casos, este directorio estará vacío a menos que `fsck` haya encontrado datos no referenciados durante una recuperación del sistema de ficheros.*
