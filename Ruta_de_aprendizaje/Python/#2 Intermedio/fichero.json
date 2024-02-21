@@ -1,0 +1,11 @@
+{
+  "nombre": "Daniel",
+  "apellido": "Perez",
+  "edad": 18,
+  "lenguages": [
+    "Python",
+    "C",
+    "TypeScript"
+  ],
+  "website": "https://daniel.dev"
+}

@@ -68,3 +68,61 @@ if not string:
 
 if string == "Mi cadena de textoooooo":
     print("Estas cadenas de texto coinciden", end="\n")
+
+
+"""
+El match es una nueva palabra reservada de python que se utiliza para hacer condicionales y se ejecuta cuando se cumple la condición del match y se puede utilizar para hacer condicionales con valores de una variable o de una expresión. También se puede utilizar para hacer condicionales con valores de una lista, tupla, set, diccionario o cualquier otro tipo de colección de datos o estructura de datos 
+"""
+
+edad: int = 18
+
+match edad:
+    case 18:
+        print("Eres mayor de edad", end="\n")
+    case 17:
+        print("Eres menor de edad", end="\n")
+    case 5:
+        print("Eres un niño", end="\n")
+
+match edad:
+    case edad if edad >= 18:
+        print("Eres mayor de edad", end="\n")
+    case edad if edad < 18 and edad >= 5:
+        print("Eres menor de edad", end="\n")
+    case edad if edad <= 5 and edad >= 1:
+        print("Eres un niño", end="\n")
+
+nombre: str = "Daniel"
+
+match nombre:
+    case "Daniel":
+        print("Tu nombre es Daniel", end="\n")
+    case "Danna":
+        print("Tu nombre es Danna", end="\n")
+    case "Matias":
+        print("Tu nombre es Pedro", end="\n")
+
+lista: list[str] = ["manzana", "pera", "uva"]
+
+match lista:
+    case ["manzana", "pera", "uva"]:
+        print("La lista contiene manzana, pera y uva", end="\n")
+    case ["manzana", "pera"]:
+        print("La lista tiene manzana y pera", end="\n")
+    case ["manzana"]:
+        print("La lista contiene una manzana", end="\n")
+    case []:
+        print("La lista esta vacía", end="\n")
+
+letra: str = "a"
+
+match letra:
+    case "a":
+        print("La letra es a", end="\n")
+    case "b":
+        print("La letra es b", end="\n")
+    case _:
+        print("La letra no es a ni b", end="\n")
+"""
+el _ es un comodín que se utiliza para hacer match con cualquier valor
+"""
