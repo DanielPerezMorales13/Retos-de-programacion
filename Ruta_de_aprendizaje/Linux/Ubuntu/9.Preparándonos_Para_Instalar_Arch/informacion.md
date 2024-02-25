@@ -6,6 +6,7 @@
 - [**_Crear un comando global_**](#crear-un-comando-global)
 - [**_/etc/host_**](#etchost)
 - [**_Operadores `&&` y `||`_**](#operadores--y-)
+- [***Desmontar y Montar sistemas de ficheros***](#desmontar-y-montar-sistemas-de-ficheros)
 
 ---
 
@@ -328,3 +329,33 @@ passwd daniel
 ```
 
 *De nuevo, el sistema te pedirá que introduzcas tu nueva contraseña dos veces para confirmarla.*
+
+# ***Desmontar y Montar sistemas de ficheros***
+
+> *`mount` y `umount` son comandos en sistemas operativos Unix y Linux que se utilizan para montar y desmontar sistemas de ficheros, respectivamente. `lsblk` es un comando que lista información sobre todos los bloques de dispositivos disponibles, que son los medios de almacenamiento disponibles en tu sistema.*
+
+**Ejemplos de cómo se utilizan estos comandos:**
+
+- *`mount`: Este comando se utiliza para montar un sistema de ficheros. Por ejemplo, si tienes un disco USB que quieres montar, podrías usar un comando como este:*
+
+```bash
+mount /dev/sdb1 /mnt/usb
+```
+
+*Este comando monta el dispositivo que se encuentra en `/dev/sdb1` en la carpeta `/mnt/usb`.*
+
+- *`umount`: Este comando se utiliza para desmontar un sistema de ficheros. Si quieres desmontar el disco USB que montaste en el ejemplo anterior, usarías un comando como este:*
+
+```bash
+umount /mnt/usb
+```
+
+*Este comando desmonta el sistema de ficheros que se encuentra en `/mnt/usb`.*
+
+- *`lsblk`: Este comando lista información sobre tus bloques de dispositivos. Por ejemplo, si quieres ver todos los bloques de dispositivos disponibles en tu sistema, podrías usar un comando como este:*
+
+```bash
+lsblk
+```
+
+*Este comando te dará una lista de todos los bloques de dispositivos disponibles en tu sistema, junto con información como el tamaño del dispositivo, el tipo de dispositivo y el punto de montaje.*
