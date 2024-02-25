@@ -1,0 +1,7 @@
+Sintaxis en python
+
+drwxrwxr-x daniel daniel 4.0 KB Thu Feb 22 13:21:11 2024 .
+drwxr-xr-x daniel daniel 4.0 KB Wed Feb 21 18:11:16 2024 ..
+.rw-rw-r-- daniel daniel  12 KB Thu Feb 22 13:26:17 2024 1.Introduccion.md
+.rwxrw-r-- daniel daniel 178 B  Thu Feb 22 13:21:11 2024 scritps.py
+

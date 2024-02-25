@@ -234,11 +234,11 @@ _Después de ejecutar estos comandos, te encontrarás de nuevo en el directorio 
 - *Para formatear un disco usando `mkfs` en Linux, primero necesitas conocer el nombre del dispositivo que deseas formatear. Puedes usar el comando `lsblk` o `fdisk -l`,`-l` es una abreviatura de `--list`para listar tus dispositivos de almacenamiento.*
 
 ```bash
-fdisk -l
+sudo fdisk -l
 ```
 
 ```bash
-fdisk --list
+sudo fdisk --list
 ```
 
 *Una vez que sepas cuál es tu dispositivo, puedes usar `mkfs` para formatearlo. Por ejemplo, si tu dispositivo es `/dev/sdb`, puedes formatearlo a ext4 con el siguiente comando:*
@@ -300,3 +300,31 @@ lsblk --fs
 7. ![Img-Formatear-Usb#7]("")
 
 8. ![Img-Formatear-Usb#8]("")
+
+- *El comando `passwd root` se utiliza para cambiar la contraseña del usuario root en sistemas Unix y Linux. Aquí te muestro cómo se usaría en un bloque de código de bash:*
+
+```bash
+sudo passwd root
+```
+
+> *Cuando ejecutas este comando, el sistema te pedirá que introduzcas una nueva contraseña para el usuario root. Tendrás que introducir la contraseña dos veces para confirmarla.*
+
+- *Para cambiar la contraseña de un usuario normal en un sistema Unix o Linux, puedes usar el comando `passwd` seguido del nombre de usuario. Por ejemplo, si el nombre de usuario es `daniel`, puedes cambiar su contraseña con el siguiente comando:*
+
+```bash
+sudo passwd daniel
+```
+
+- *Cuando ejecutes este comando, el sistema te pedirá que introduzcas una nueva contraseña para el usuario `daniel`. Tendrás que introducir la contraseña dos veces para confirmarla.*
+
+- *Si estás ejecutando el comando como el usuario `daniel`, no necesitarás `sudo`. Simplemente puedes usar `passwd` sin ningún argumento para cambiar tu propia contraseña:*
+
+```bash
+passwd
+```
+
+```bash
+passwd daniel
+```
+
+*De nuevo, el sistema te pedirá que introduzcas tu nueva contraseña dos veces para confirmarla.*
